@@ -1,0 +1,29 @@
+.DS_Store
+__pycache__
+data/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit / cache
+.streamlit/
+.cache/
+
+# Environment / secret keys
+.env
+*.env

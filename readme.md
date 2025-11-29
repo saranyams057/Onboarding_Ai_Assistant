@@ -142,7 +142,7 @@ The `employee_data.py` file creates synthetic HR profiles for:
 ![Chat UI](screenshots/main_ui.png)
 
 **Employee Search Example**
-![Employee Search](screenshots/employee_query.png)
+![Employee Search](screenshots/Employee_query.png)
 
 
 

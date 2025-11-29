@@ -51,23 +51,6 @@ This project uses **synthetic employee data** generated via `Faker` to avoid usi
 
 ---
 
-## 🏗️ **Project Structure**
-
-```
-📦 onboarding-assistant
-│
-├── app.py                    # Main Streamlit app
-├── rag_system.py             # RAG logic (embedding + retrieval)
-├── employee_data.py          # Synthetic employee dataset generator
-├── documents/                # Company policies & knowledge base
-│   ├── leave_policy.txt
-│   ├── code_of_conduct.txt
-│   └── work_from_home.txt
-├── vector_store/             # Local ChromaDB store
-├── requirements.txt          # Dependencies
-└── README.md                 # Project documentation
-```
-
 ---
 
 ## ⚙️ **How It Works**
@@ -103,7 +86,7 @@ User Input + Retrieved Context + Employee Profile
 | Component   | Technology                    |
 | ----------- | ----------------------------- |
 | Frontend    | Streamlit                     |
-| Backend LLM | Groq (LLaMA / Mixtral models) |
+| Backend LLM | Groq (LLaMA) |
 | Data        | Faker synthetic HR dataset    |
 | RAG         | ChromaDB                      |
 | Embeddings  | Groq Embedding models         |
@@ -116,7 +99,7 @@ User Input + Retrieved Context + Employee Profile
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/onboarding-assistant.git
+git clone https://github.com/saramyams057/onboarding-assistant.git
 cd onboarding-assistant
 ```
 
@@ -153,14 +136,6 @@ The `employee_data.py` file creates synthetic HR profiles for:
 * Simulating real-world onboarding experiences
 
 ---
-
-## 📌 **Future Enhancements**
-
-* Add role-based access
-* Add authentication (OAuth / JWT)
-* Add document upload UI for dynamic RAG updates
-* Add analytics dashboard for HR
-* Deploy on cloud (GCP / HuggingFace Spaces / Streamlit Cloud)
 
 ---
 
